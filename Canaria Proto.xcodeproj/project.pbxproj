@@ -160,17 +160,17 @@
 		5211EFAC1885642F007CC40D /* icon-hex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-hex.png"; sourceTree = "<group>"; };
 		5211EFAD1885642F007CC40D /* icon-hex@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-hex@2x.png"; sourceTree = "<group>"; };
 		5214D0CD1886C02A00460637 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		5217F3E21859EE0000F2D5BB /* nRF Toolbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nRF Toolbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5217F3E21859EE0000F2D5BB /* Canaria Proto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Canaria Proto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5217F3E51859EE0000F2D5BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5217F3E71859EE0000F2D5BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5217F3E91859EE0000F2D5BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		5217F3ED1859EE0000F2D5BB /* nRF Toolbox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nRF Toolbox-Info.plist"; sourceTree = "<group>"; };
+		5217F3ED1859EE0000F2D5BB /* Canaria Proto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Canaria Proto-Info.plist"; sourceTree = "<group>"; };
 		5217F3EF1859EE0000F2D5BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5217F3F31859EE0000F2D5BB /* nRF Toolbox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nRF Toolbox-Prefix.pch"; sourceTree = "<group>"; };
+		5217F3F31859EE0000F2D5BB /* Canaria Proto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Canaria Proto-Prefix.pch"; sourceTree = "<group>"; };
 		5217F3F81859EE0000F2D5BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5217F3FD1859EE0000F2D5BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5217F4031859EE0000F2D5BB /* nRF ToolboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nRF ToolboxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5217F40C1859EE0000F2D5BB /* nRF ToolboxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nRF ToolboxTests-Info.plist"; sourceTree = "<group>"; };
+		5217F4031859EE0000F2D5BB /* Canaria ProtoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Canaria ProtoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5217F40C1859EE0000F2D5BB /* Canaria ProtoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Canaria ProtoTests-Info.plist"; sourceTree = "<group>"; };
 		5217F40E1859EE0000F2D5BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5217F41A1859EEF400F2D5BB /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		522636361C60FFB00054A550 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -283,8 +283,8 @@
 		5217F3E31859EE0000F2D5BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5217F3E21859EE0000F2D5BB /* nRF Toolbox.app */,
-				5217F4031859EE0000F2D5BB /* nRF ToolboxTests.xctest */,
+				5217F3E21859EE0000F2D5BB /* Canaria Proto.app */,
+				5217F4031859EE0000F2D5BB /* Canaria ProtoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -335,9 +335,9 @@
 			children = (
 				A85667DD1B222AA7004A6D3C /* AppImages */,
 				7E1B422818A8DF4D006BA1BC /* high.mp3 */,
-				5217F3ED1859EE0000F2D5BB /* nRF Toolbox-Info.plist */,
+				5217F3ED1859EE0000F2D5BB /* Canaria Proto-Info.plist */,
 				5217F3EE1859EE0000F2D5BB /* InfoPlist.strings */,
-				5217F3F31859EE0000F2D5BB /* nRF Toolbox-Prefix.pch */,
+				5217F3F31859EE0000F2D5BB /* Canaria Proto-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -354,7 +354,7 @@
 		5217F40B1859EE0000F2D5BB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5217F40C1859EE0000F2D5BB /* nRF ToolboxTests-Info.plist */,
+				5217F40C1859EE0000F2D5BB /* Canaria ProtoTests-Info.plist */,
 				5217F40D1859EE0000F2D5BB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -556,9 +556,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5217F3E11859EE0000F2D5BB /* nRF Toolbox */ = {
+		5217F3E11859EE0000F2D5BB /* Canaria Proto */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5217F4141859EE0000F2D5BB /* Build configuration list for PBXNativeTarget "nRF Toolbox" */;
+			buildConfigurationList = 5217F4141859EE0000F2D5BB /* Build configuration list for PBXNativeTarget "Canaria Proto" */;
 			buildPhases = (
 				ED33C8D3ED1984AAE7F51DD3 /* [CP] Check Pods Manifest.lock */,
 				5217F3DE1859EE0000F2D5BB /* Sources */,
@@ -572,14 +572,14 @@
 			);
 			dependencies = (
 			);
-			name = "nRF Toolbox";
+			name = "Canaria Proto";
 			productName = "nRF Toolbox";
-			productReference = 5217F3E21859EE0000F2D5BB /* nRF Toolbox.app */;
+			productReference = 5217F3E21859EE0000F2D5BB /* Canaria Proto.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5217F4021859EE0000F2D5BB /* nRF ToolboxTests */ = {
+		5217F4021859EE0000F2D5BB /* Canaria ProtoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5217F4171859EE0000F2D5BB /* Build configuration list for PBXNativeTarget "nRF ToolboxTests" */;
+			buildConfigurationList = 5217F4171859EE0000F2D5BB /* Build configuration list for PBXNativeTarget "Canaria ProtoTests" */;
 			buildPhases = (
 				5217F3FF1859EE0000F2D5BB /* Sources */,
 				5217F4001859EE0000F2D5BB /* Frameworks */,
@@ -590,9 +590,9 @@
 			dependencies = (
 				5217F4091859EE0000F2D5BB /* PBXTargetDependency */,
 			);
-			name = "nRF ToolboxTests";
+			name = "Canaria ProtoTests";
 			productName = "nRF ToolboxTests";
-			productReference = 5217F4031859EE0000F2D5BB /* nRF ToolboxTests.xctest */;
+			productReference = 5217F4031859EE0000F2D5BB /* Canaria ProtoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -605,8 +605,8 @@
 				ORGANIZATIONNAME = "Nordic Semiconductor";
 				TargetAttributes = {
 					5217F3E11859EE0000F2D5BB = {
-						DevelopmentTeam = P3R8YQEV4L;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -619,7 +619,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5217F3DD1859EE0000F2D5BB /* Build configuration list for PBXProject "nRF Toolbox" */;
+			buildConfigurationList = 5217F3DD1859EE0000F2D5BB /* Build configuration list for PBXProject "Canaria Proto" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -632,8 +632,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5217F3E11859EE0000F2D5BB /* nRF Toolbox */,
-				5217F4021859EE0000F2D5BB /* nRF ToolboxTests */,
+				5217F3E11859EE0000F2D5BB /* Canaria Proto */,
+				5217F4021859EE0000F2D5BB /* Canaria ProtoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -784,7 +784,7 @@
 /* Begin PBXTargetDependency section */
 		5217F4091859EE0000F2D5BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5217F3E11859EE0000F2D5BB /* nRF Toolbox */;
+			target = 5217F3E11859EE0000F2D5BB /* Canaria Proto */;
 			targetProxy = 5217F4081859EE0000F2D5BB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -921,6 +921,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -928,8 +929,8 @@
 					"$(PODS_ROOT)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "nRF Toolbox/nRF Toolbox-Prefix.pch";
-				INFOPLIST_FILE = "nRF Toolbox/nRF Toolbox-Info.plist";
+				GCC_PREFIX_HEADER = "nRF Toolbox/Canaria Proto-Prefix.pch";
+				INFOPLIST_FILE = "nRF Toolbox/Canaria Proto-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -948,7 +949,7 @@
 					"\"iOSDFULibrary\"",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nordicsemi.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.canaria.proto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -971,6 +972,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -978,8 +980,8 @@
 					"$(PODS_ROOT)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "nRF Toolbox/nRF Toolbox-Prefix.pch";
-				INFOPLIST_FILE = "nRF Toolbox/nRF Toolbox-Info.plist";
+				GCC_PREFIX_HEADER = "nRF Toolbox/Canaria Proto-Prefix.pch";
+				INFOPLIST_FILE = "nRF Toolbox/Canaria Proto-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -998,7 +1000,7 @@
 					"\"iOSDFULibrary\"",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nordicsemi.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.canaria.proto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -1026,7 +1028,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "nRF ToolboxTests/nRF ToolboxTests-Info.plist";
+				INFOPLIST_FILE = "nRF ToolboxTests/Canaria ProtoTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "no.nordicsemi.ios.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1049,7 +1051,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "nRF Toolbox/nRF Toolbox-Prefix.pch";
-				INFOPLIST_FILE = "nRF ToolboxTests/nRF ToolboxTests-Info.plist";
+				INFOPLIST_FILE = "nRF ToolboxTests/Canaria ProtoTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "no.nordicsemi.ios.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1062,7 +1064,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5217F3DD1859EE0000F2D5BB /* Build configuration list for PBXProject "nRF Toolbox" */ = {
+		5217F3DD1859EE0000F2D5BB /* Build configuration list for PBXProject "Canaria Proto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5217F4121859EE0000F2D5BB /* Debug */,
@@ -1071,7 +1073,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5217F4141859EE0000F2D5BB /* Build configuration list for PBXNativeTarget "nRF Toolbox" */ = {
+		5217F4141859EE0000F2D5BB /* Build configuration list for PBXNativeTarget "Canaria Proto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5217F4151859EE0000F2D5BB /* Debug */,
@@ -1080,7 +1082,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5217F4171859EE0000F2D5BB /* Build configuration list for PBXNativeTarget "nRF ToolboxTests" */ = {
+		5217F4171859EE0000F2D5BB /* Build configuration list for PBXNativeTarget "Canaria ProtoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5217F4181859EE0000F2D5BB /* Debug */,
