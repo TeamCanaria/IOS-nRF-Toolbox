@@ -272,8 +272,8 @@
 			isa = PBXGroup;
 			children = (
 				5214D0CD1886C02A00460637 /* Settings.bundle */,
-				5217F3EB1859EE0000F2D5BB /* nRF Toolbox */,
-				5217F40A1859EE0000F2D5BB /* nRF ToolboxTests */,
+				5217F3EB1859EE0000F2D5BB /* Canaria Proto */,
+				5217F40A1859EE0000F2D5BB /* Canaria ProtoTests */,
 				5217F3E41859EE0000F2D5BB /* Frameworks */,
 				5217F3E31859EE0000F2D5BB /* Products */,
 				022A9DC491EC95659788F163 /* Pods */,
@@ -305,7 +305,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5217F3EB1859EE0000F2D5BB /* nRF Toolbox */ = {
+		5217F3EB1859EE0000F2D5BB /* Canaria Proto */ = {
 			isa = PBXGroup;
 			children = (
 				A8F1142619C1B7EC007F956E /* StoryBoard */,
@@ -327,6 +327,7 @@
 				5217F3FD1859EE0000F2D5BB /* Images.xcassets */,
 				5217F3EC1859EE0000F2D5BB /* Supporting Files */,
 			);
+			name = "Canaria Proto";
 			path = "nRF Toolbox";
 			sourceTree = "<group>";
 		};
@@ -342,12 +343,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5217F40A1859EE0000F2D5BB /* nRF ToolboxTests */ = {
+		5217F40A1859EE0000F2D5BB /* Canaria ProtoTests */ = {
 			isa = PBXGroup;
 			children = (
 				3001432E1CEDAD04008379DF /* NORCharacteristicReaderTests.swift */,
 				5217F40B1859EE0000F2D5BB /* Supporting Files */,
 			);
+			name = "Canaria ProtoTests";
 			path = "nRF ToolboxTests";
 			sourceTree = "<group>";
 		};

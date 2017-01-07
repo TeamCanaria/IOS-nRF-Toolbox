@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import nRF_Toolbox
+@testable import Canaria_Proto
 
 class NORCharacteristicReaderTests: XCTestCase {
 
