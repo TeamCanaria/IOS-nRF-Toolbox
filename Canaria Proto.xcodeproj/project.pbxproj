@@ -607,8 +607,9 @@
 				ORGANIZATIONNAME = "Nordic Semiconductor";
 				TargetAttributes = {
 					5217F3E11859EE0000F2D5BB = {
+						DevelopmentTeam = M9AZ5YW65J;
 						LastSwiftMigration = 0800;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -918,12 +919,13 @@
 			baseConfigurationReference = 0A455719E4780A53A451F09C /* Pods-nRF Toolbox.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ALWAYS_SEARCH_USER_PATHS = "$(inherited)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Canaria Limited (M9AZ5YW65J)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = M9AZ5YW65J;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -951,7 +953,7 @@
 					"\"iOSDFULibrary\"",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.uk.canaria.proto;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.canaria.proto-ios-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -969,12 +971,13 @@
 			baseConfigurationReference = 28F7349095038A3F55F27F8C /* Pods-nRF Toolbox.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ALWAYS_SEARCH_USER_PATHS = "$(inherited)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Canaria Limited (M9AZ5YW65J)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = M9AZ5YW65J;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1002,7 +1005,7 @@
 					"\"iOSDFULibrary\"",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.uk.canaria.proto;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.canaria.proto-ios-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
